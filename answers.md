@@ -5,6 +5,7 @@
 
 
 1.a)
+
     find largest coin less than or equal to the amount that the user starts with.
     exchange coin for us currency amount so that you may repeat the process with your new number.
     repeats the process till your amount is $0.
@@ -19,6 +20,7 @@
 
     
   c)
+  
     W(n)=O(log n)
 
     S(n)=O(log n)
@@ -30,16 +32,15 @@
 
 
   b)
-
   
-  An optimal solution created by its subproblems optimal solutions is referred to as "Optimal Substructure". In the context of the coin-changing problem, this implies that having an optimal solution for N dollars entails that, for any amount less than N, the included solution for that smaller amount must also be optimal.This means that for the coin-changing problem, if you possess an optimal solution for N dollars, then the solution encompassed for any amount less than N must also be optimal.
+    An optimal solution created by its subproblems optimal solutions is referred to as "Optimal Substructure". In the context of the coin-changing problem, this implies that having an optimal solution for N dollars entails that, for any amount less than N, the included solution for that smaller amount must also be optimal.This means that for the coin-changing problem, if you possess an optimal solution for N dollars, then the solution encompassed for any amount less than N must also be optimal.
 
-  If the solution for the smaller amount was not optimal, substituting it with an optimal solution for the smaller amount would result in a superior solution for N. This contradicts our assumption that we initially had an optimal solution for N.
+    If the solution for the smaller amount was not optimal, substituting it with an optimal solution for the smaller amount would result in a superior solution for N. This contradicts our assumption that we initially had an optimal solution for N.
 
   c)
 
-  W(n) = O(nk)
-  S(n) = O(n)
+      W(n) = O(nk)
+      S(n) = O(n)
 
 
 
